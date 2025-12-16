@@ -101,7 +101,7 @@ Retrait 2 : 700 €
 - Pourquoi synchronized empêche-t-il la race condition ?
 - Que se passe-t-il si plusieurs threads veulent entrer dans la méthode ?
 
-## 🧪 Partie 6 — Simulation multi-clients
+## 🧪 Partie 5 — Simulation multi-clients
 6️⃣ Simulation réaliste
 - Créer 10 threads clients
 - Chaque client effectue 5 opérations aléatoires :
