@@ -32,12 +32,12 @@ Chaque action sera exécutée **dans un thread distinct**.
 Créer une classe `BankAccount` avec :
 
 - Attributs :
-  - `accountNumber` (int)
-  - `balance` (double)
+    - `accountNumber` (int)
+    - `balance` (double)
 - Méthodes :
-  - `deposit(double amount)`
-  - `withdraw(double amount)`
-  - `getBalance()`
+    - `deposit(double amount)`
+    - `withdraw(double amount)`
+    - `getBalance()`
 
 📌 **Aucune synchronisation à ce stade**
 
@@ -49,8 +49,8 @@ Dans une classe `Main` :
 
 - Créer un compte avec **1000 €**
 - Effectuer :
-  - un dépôt de 200 €
-  - un retrait de 150 €
+    - un dépôt de 200 €
+    - un retrait de 150 €
 - Afficher le solde final
 
 ---
@@ -105,9 +105,9 @@ Retrait 2 : 700 €
 6️⃣ Simulation réaliste
 - Créer 10 threads clients
 - Chaque client effectue 5 opérations aléatoires :
-  - dépôt
-  - retrait
-  - consultation
-💡 Ajouter un Thread.sleep() pour simuler le temps d’attente à l’ATM.
+    - dépôt
+    - retrait
+    - consultation
+      💡 Ajouter un Thread.sleep() pour simuler le temps d’attente à l’ATM.
 
 
